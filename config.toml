@@ -1,0 +1,279 @@
+# Page settings
+baseurl = "localhost:1313"
+title = "Cassie & Devon"
+languageCode = "en-us"
+theme = "elate"
+
+[params]
+  
+  custom_css = ["css/custom1.css", "css/custom2.css"]
+
+  # Meta
+  author = "Devon Finninger"
+  description = "Wedding Page"
+  email = "fwd.finninger@gmail.com"
+  # Navigation
+  [params.navigation]
+    brand = "Cassie & Devon"
+    home = "Home"
+    work = "Work"
+    testimonials = "Testimonials"
+    services = "Services"
+    about = "About"
+    contact = "Contact"
+
+    # You can add custom links before or after the default links
+    # Assign a weight to define the order
+    
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+    # postpended links
+    #[[menu.postpend]]
+    #  url = "http://gohugo.io"
+    #  name = "External link"
+    #  weight = 10
+  
+  # Hero section
+  [params.hero]
+    title = "Cassie's & Devon's Wedding"
+    subtitle = "A bitchin' shindig with tons of booze and just about everything else awesome you can think of. Like even more stuff that you can imagine - hookers and blackjack don't even begin to describe what awesome things await within!"
+ 
+  # Intro section
+  # Available icons: http://simplelineicons.com/
+  [params.intro]
+
+  [[params.intro.item]]
+    title = "Venue"
+    description = "This place is super wet and awesome and you may need an umbrella, hence the neat-o icon you see there."
+    url = "http://www.oregon.gov/pages/index.aspx"
+    button = "Find Serenity"
+    icon = "icon-umbrella"
+    img = "img_7.jpg"
+
+  [[params.intro.item]]
+    title = "Registry"
+    description = "Please feel free to buy us anything that you see on here because it is super awesome!! If you have the option of shipping it directly to our home, then that would be preferable!"
+    url = "https://amazon.com"
+    button = "Buy us stuff!"
+    icon = "icon-present"
+    img = "img_8.jpg"
+
+  [[params.intro.item]]
+    title = "Social"
+    description = "Sam? SAAAAAAMMMMMM!!!"
+    url = "https://www.instagram.com/explore/tags/findingfrodo/"
+    button = "Instagram Hashtag"
+    icon = "icon-social-instagram"
+    img = "img_10.jpg"
+
+  [params.intro.video]
+    enable = true
+    title = "Proposal Video!"
+    icon = "icon-play2"
+    url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+
+
+  # Work section
+  [params.work]
+    enable = true
+    title = "Work"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+
+    [[params.work.row]]
+      img = "work_1.jpg"
+      alt = "Image2"
+      title = "Project 1"
+      subtitle = "Branding"
+
+    [[params.work.row]]
+      img = "work_2.jpg"
+      alt = "Image2"
+      title = "Project 2"
+      subtitle = "Design"
+
+    [[params.work.row]]
+      img = "work_3.jpg"
+      alt = "Image3"
+      title = "Project 3"
+      subtitle = "Design"
+
+    [[params.work.row]]
+      img = "work_4.jpg"
+      alt = "Image4"
+      title = "Project 4"
+      subtitle = "Design"
+
+    [[params.work.row]]
+      img = "work_5.jpg"
+      alt = "Image5"
+      title = "Project 5"
+      subtitle = "Design"
+
+    [[params.work.row]]
+      img = "work_6.jpg"
+      alt = "Image6"
+      title = "Project 6"
+      subtitle = "Design"
+
+  # Testimonials section
+  [params.testimonials]
+    enable = true
+    title = "Testimonials"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
+      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      img = "person1.jpg"
+      alt = "Person1"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
+      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      img = "person2.jpg"
+      alt = "Person2"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
+      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      img = "person3.jpg"
+      alt = "Person3"
+    
+
+
+
+  # Services section
+  [params.services]
+    enable = true
+    title = "Services"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+    [[params.services.item]]
+      title = "Brand &amp; Strategy"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-anchor"
+
+    [[params.services.item]]
+      title = "Web &amp; Interface"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-layers2"
+    [[params.services.item]]
+      title = "Photo &amp; Video"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-video2"
+
+      [[params.services.item]]
+      title = "CMS &amp; eCommerce"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
+      icon = "icon-monitor"
+
+  # About section
+  [params.about]
+    enable = true
+    title = "About"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+    [[params.about.item]]
+      name = "Jean Smith"
+      position = "Web Designer"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "person1.jpg"
+      alt = "Person1"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-linkedin", "#"]
+      ]
+
+    [[params.about.item]]
+      name = "Rob Smith"
+      position = "Web Developer"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "person2.jpg"
+      alt = "Person2"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-github", "#"]
+      ]
+
+    [[params.about.item]]
+      name = "Larry Ben"
+      position = "Web Designer"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "person3.jpg"
+      alt = "Person3"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]      
+
+  # Counters section
+  [params.counters]
+    enable = true
+    title = "Stats"
+    background = "full_image_1.jpg"
+
+    [[params.counters.item]]
+      description = "Finished projects"
+      icon = "icon-briefcase"
+      from = 0
+      to = 89
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Lines of code"
+      icon = "icon-code"
+      from = 0
+      to = 2343409
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Cups of coffee"
+      icon = "icon-cup"
+      from = 0
+      to = 1302
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Happy clients"
+      icon = "icon-people"
+      from = 0
+      to = 52
+      interval = 50
+      speed = 5000
+
+  # Contact section
+  [params.contact]
+    enable = true
+    map = true
+    title = "Get in touch"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    
+    # Available icons: http://simplelineicons.com/
+    details = [
+        ["icon-home", "3932 Colgrove St., San Mateo, California, <br> Our Happy home"],
+        ["icon-phone", "(910) 867-5309"],
+        ["icon-envelope", "fwd.finninger@gmail.com"],
+        ["icon-globe", '<a href="http://wedding.finninger.io/" target="_blank">wedding.finninger.io</a>']
+      ]
+
+    name = "Name"
+    email = "Email"
+    phone = "Phone"
+    message = "Message"
+    button = "Send message"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
