@@ -17,7 +17,7 @@ publishDir = "docs"
   [params.navigation]
     brand = "Cassie & Devon"
     home = "Home"
-    work = "Work"
+    work = "Engagement"
     testimonials = "Testimonials"
     services = "Services"
     about = "About"
@@ -67,13 +67,13 @@ publishDir = "docs"
     title = "Social"
     description = "Sam? SAAAAAAMMMMMM!!!"
     url = "https://www.instagram.com/explore/tags/findingfrodo/"
-    button = "Instagram Hashtag"
+    button = "#FindingFrodo"
     icon = "icon-social-instagram"
     img = "img_10.jpg"
 
   [params.intro.video]
     enable = true
-    title = "Proposal Video!"
+    title = "Click Here for the Proposal Video!"
     icon = "icon-play2"
     url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 
@@ -81,27 +81,27 @@ publishDir = "docs"
   # Work section
   [params.work]
     enable = true
-    title = "Work"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+    title = "Engagement"
+    description = "We got engaged in The Garden of the Gods near Colorado Springs during our fifth anniversary vacation."
+    footertext = 'placeholder text'
 
     [[params.work.row]]
-      img = "work_1.jpg"
-      alt = "Image2"
-      title = "Project 1"
-      subtitle = "Branding"
+      img = "prop_1.jpg"
+      alt = "Garden of the Gods"
+      title = "Looking Out"
+      subtitle = "Our view during the proposal"
 
     [[params.work.row]]
-      img = "work_2.jpg"
-      alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
+      img = "prop_2.jpg"
+      alt = "During the Proposal"
+      title = "Surprise Photo!"
+      subtitle = "Someone was able to take some pictures"
 
     [[params.work.row]]
-      img = "work_3.jpg"
-      alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
+      img = "prop_3.jpg"
+      alt = "View from the Mountain"
+      title = "From the Broadmoor Cloud Camp"
+      subtitle = "Our view of GotG from our cabin that night"
 
     [[params.work.row]]
       img = "work_4.jpg"
