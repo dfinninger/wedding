@@ -103,47 +103,29 @@ publishDir = "docs"
       title = "From the Broadmoor Cloud Camp"
       subtitle = "Our view of GotG from our cabin that night"
 
-    [[params.work.row]]
-      img = "work_4.jpg"
-      alt = "Image4"
-      title = "Project 4"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_5.jpg"
-      alt = "Image5"
-      title = "Project 5"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_6.jpg"
-      alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
-
   # Testimonials section
   [params.testimonials]
     enable = true
     title = "Testimonials"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "Some people have great things to say about our relationship! Secret voice recodings have been transcribed here!"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
-      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person1.jpg"
-      alt = "Person1"
+      quote = "&ldquo;AAAHHHHH!! So excited. I mean, Cassie is amazing and wonderful and beautiful and Devon's kinda cool too.&rdquo;"
+      person = 'Melody Young, Software Engineer <span class="subtext">Friend for Life</span>'
+      img = "people_mel_jeff.jpg"
+      alt = "Melody Young"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
-      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person2.jpg"
-      alt = "Person2"
+      quote = "&ldquo;These people are superior beings.&rdquo;"
+      person = 'Haley Brenna, Medical Assistant <span class="subtext">Friend for Life</span>'
+      img = "people_haley.jpg"
+      alt = "Haley Brenna"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
-      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person3.jpg"
-      alt = "Person3"
+      quote = "&ldquo;They are not throwing away their shot.&rdquo;"
+      person = 'Alexander Hamilton, Bastard, Orphan, Son of a Whore and a Scotsman <span class="subtext">Hero and a Scholar</span>'
+      img = "people_alex_hamilton.jpg"
+      alt = "Alexander Hamilton"
     
 
 
@@ -262,7 +244,7 @@ publishDir = "docs"
     
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "3932 Colgrove St., San Mateo, California, <br> Our Happy home"],
+        ["icon-home", "3932 Colegrove St., San Mateo, California, <br> Our Happy home"],
         ["icon-phone", "(910) 867-5309"],
         ["icon-envelope", "fwd.finninger@gmail.com"],
         ["icon-globe", '<a href="http://wedding.finninger.io/" target="_blank">wedding.finninger.io</a>']
