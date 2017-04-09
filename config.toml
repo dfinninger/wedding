@@ -3,6 +3,7 @@ baseurl = "localhost:1313"
 title = "Cassie & Devon"
 languageCode = "en-us"
 theme = "elate"
+publishDir = "docs"
 
 [params]
   
