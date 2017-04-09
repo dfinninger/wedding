@@ -33,10 +33,10 @@ publishDir = "docs"
     #  weight = 10
 
     # postpended links
-    [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "External link"
-      weight = 10
+    #[[menu.postpend]]
+    #  url = "http://gohugo.io"
+    #  name = "External link"
+    #  weight = 10
   
   # Hero section
   [params.hero]
@@ -48,11 +48,11 @@ publishDir = "docs"
   [params.intro]
 
   [[params.intro.item]]
-    title = "Venue"
-    description = "This place is super wet and awesome and you may need an umbrella, hence the neat-o icon you see there."
-    url = "http://www.oregon.gov/pages/index.aspx"
-    button = "Find Serenity"
-    icon = "icon-umbrella"
+    title = "RSVP"
+    description = "Please fill out this form as soon as you have the necessary information. You can edit your responses later by following this same link."
+    url = "https://goo.gl/forms/8PgiejaQV38pTCPG2"
+    button = "RSVP"
+    icon = "icon-calendar"
     img = "img_7.jpg"
 
   [[params.intro.item]]
