@@ -41,7 +41,7 @@ publishDir = "docs"
   # Hero section
   [params.hero]
     title = "Cassie's & Devon's Wedding"
-    subtitle = "A bitchin' shindig with tons of booze and just about everything else awesome you can think of. Like even more stuff that you can imagine - hookers and blackjack don't even begin to describe what awesome things await within!"
+    subtitle = "Please join us for a wonderful day celebrating our relationship with family and friends. <br/> RSVP below!"
  
   # Intro section
   # Available icons: http://simplelineicons.com/
